@@ -20,7 +20,6 @@ public class GetService {
             return formatMonthTitle(months.get(n-1));
         }
         catch (NumberFormatException ex){
-            System.out.println("exxeption nafig");
             return errorText;
         }
     }
